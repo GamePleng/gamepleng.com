@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Pleng</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #151515;
+            color: #F0EEE9;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+        }
+
+        .title {
+            font-size: 3rem;
+            margin: 0px;
+        }
+
+        .title:hover {
+            background: linear-gradient(to right, #7b00ff, #ff0000);
+            background-size: 200% 200%;
+            animation: gradient 2s ease infinite;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            cursor: pointer;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+                font-size: 3.5rem;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    ยินดีต้อนรับเข้าสู่
+    <h1 class="title">gamepleng.com</h1>
+</body>
+
+</html>
